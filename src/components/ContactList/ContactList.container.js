@@ -1,6 +1,5 @@
 import { connect } from 'react-redux';
-import selectors from '../../redux/contacts/selectors';
-import operations from '../../redux/contacts/operations';
+import { selectors, operations } from '../../redux/contacts';
 import ContactList from './ContactList';
 
 const mapStateToProps = state => ({

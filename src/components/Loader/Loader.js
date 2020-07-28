@@ -5,11 +5,11 @@ import styles from './Loader.module.css';
 const Loader = () => (
   <div className={styles.Loader}>
     <Spinner
-      type="Hearts"
+      type="BallTriangle"
       color="#3f51b5"
-      height={150}
-      width={150}
-      timeout={5000} // 3 secs
+      height={80}
+      width={80}
+      timeout={3000}
     />
   </div>
 );

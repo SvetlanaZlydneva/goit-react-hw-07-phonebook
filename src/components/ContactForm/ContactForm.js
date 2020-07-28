@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import operations from '../../redux/contacts/operations';
-import selectors from '../../redux/contacts/selectors';
+import { operations, selectors } from '../../redux/contacts';
 import Section from '../Section';
 import styles from './ContactForm.module.css';
 
